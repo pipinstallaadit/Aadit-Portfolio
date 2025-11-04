@@ -8,26 +8,38 @@ const Projects = () => {
     {
       title: '2D Car Simulation with Genetic Algorithms',
       description:
-        'Implemented a sophisticated neural network-driven car simulation using genetic algorithms for autonomous navigation. Features include real-time evolution visualization, collision detection, and performance metrics tracking.',
-      technologies: ['Python', 'Neural Networks', 'Genetic Algorithms', 'PyGame'],
-      github: 'https://github.com/aaditpujari',
-      highlights: ['AI-Powered Navigation', 'Real-time Evolution', 'Performance Analytics'],
+        'Developed a 2D car simulation using p5.js for visuals and plank.js for physics, including collision detection, impulses, and joint constraints. Implemented genetic algorithms to evolve car designs through fitness evaluation, crossover, and mutation, enhancing stability and range.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'p5.js', 'plank.js'],
+      github: 'https://github.com/pipinstallaadit/2D-Car-Simulator',
+      highlights: [
+        'Physics-based Simulation',
+        'Genetic Algorithm Optimization',
+        'Adaptive Vehicle Design',
+      ],
     },
     {
       title: 'Sustainable Travel Planner',
       description:
-        'Developed a comprehensive travel planning application focused on eco-friendly routes and carbon footprint reduction. Integrates multiple transportation APIs to suggest optimal sustainable travel options.',
-      technologies: ['React', 'Node.js', 'API Integration', 'MongoDB'],
-      github: 'https://github.com/aaditpujari',
-      highlights: ['Carbon Tracking', 'Multi-modal Transport', 'Route Optimization'],
+        'Developed a personalized itinerary generator that tailors travel plans based on user preferences. Integrated carbon footprint calculations to suggest eco-friendly options and implemented Agentic AI for real-time itinerary adjustment based on weather and safety.',
+      technologies: ['Python', 'LangChain', 'Flask', 'Agentic AI'],
+      github: 'https://github.com/YashviMehta03/travelplanner',
+      highlights: [
+        'Personalized Itineraries',
+        'Carbon Footprint Tracking',
+        'Real-time AI Adjustments',
+      ],
     },
     {
       title: 'PersonalAIs: Mood Music Assistant',
       description:
-        'Created an intelligent music recommendation system that adapts to user mood through sentiment analysis. Features real-time emotion detection and dynamic playlist generation.',
-      technologies: ['Python', 'TensorFlow', 'Spotify API', 'NLP'],
-      github: 'https://github.com/aaditpujari',
-      highlights: ['Sentiment Analysis', 'ML-Powered Recommendations', 'Real-time Adaptation'],
+        'Built an empathetic conversational music assistant using Streamlit and LangChain to generate personalized playlists from user mood and musical preferences. Integrated Spotify OAuth/API for seamless playlist creation and adaptive user experience.',
+      technologies: ['Python', 'LangChain', 'Spotify API', 'Streamlit'],
+      github: 'https://github.com/pipinstallaadit/PersonalAIs',
+      highlights: [
+        'Mood-based Playlist Generation',
+        'Spotify Integration',
+        'Adaptive Conversation Engine',
+      ],
     },
   ];
 

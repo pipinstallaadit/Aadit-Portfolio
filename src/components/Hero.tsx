@@ -1,6 +1,6 @@
 import { ArrowRight, Mail, Linkedin, Github, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import profilePicture from '@/assets/profile-picture.jpg';
+import profilePicture from '@/assets/profile-picture.png';
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -53,8 +53,8 @@ const Hero = () => {
 
           {/* Communicable: Brief, impactful description */}
           <p className="text-base sm:text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed px-4">
-            Passionate about AI/ML, Human-Computer Interaction, and building innovative solutions. 
-            Exploring the intersection of technology and user experience.
+            Passionate about AI/ML and building innovative solutions. 
+            Exploring the intersection of technology and finance.
           </p>
 
           {/* Functional: Interactive contact buttons with clear affordance */}
@@ -77,7 +77,7 @@ const Hero = () => {
                 className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-smooth shadow-lg h-12 w-12"
                 asChild
               >
-                <a href="mailto:aaditpujari@gmail.com" aria-label="Email">
+                <a href="mailto:appujari80@gmail.com" aria-label="Email">
                   <Mail size={20} />
                 </a>
               </Button>
@@ -87,7 +87,7 @@ const Hero = () => {
                 className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-smooth shadow-lg h-12 w-12"
                 asChild
               >
-                <a href="https://linkedin.com/in/aadit-pujari" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://linkedin.com/in/aaditpujari" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin size={20} />
                 </a>
               </Button>
@@ -97,7 +97,7 @@ const Hero = () => {
                 className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-smooth shadow-lg h-12 w-12"
                 asChild
               >
-                <a href="https://github.com/aaditpujari" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/pipinstallaadit" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github size={20} />
                 </a>
               </Button>
@@ -107,7 +107,7 @@ const Hero = () => {
                 className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-smooth shadow-lg h-12 w-12"
                 asChild
               >
-                <a href="tel:+919867543210" aria-label="Phone">
+                <a href="tel:+919372459337" aria-label="Phone">
                   <Phone size={20} />
                 </a>
               </Button>

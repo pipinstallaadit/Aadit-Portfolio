@@ -6,15 +6,13 @@ const Responsibilities = () => {
     {
       organization: 'Project X',
       role: 'Core Technical Team Member',
-      duration: '2023 - Present',
+      duration: 'Jan 2025 - Present',
       icon: Code,
       description:
-        'Part of the core technical team developing innovative software solutions. Leading development of key features, conducting code reviews, and mentoring junior developers.',
+        'Part of the core technical team developing innovative software solutions, conducting code reviews, and mentoring junior developers.',
       contributions: [
-        'Architected and implemented major product features',
-        'Established coding standards and best practices',
-        'Mentored 5+ team members in modern development practices',
-        'Reduced deployment time by 40% through CI/CD automation',
+        'Mentored team members in building projects',
+        'Conducted technical workshops for juniors to enhance their skills',
       ],
       color: 'text-blue-500',
       bgGradient: 'from-blue-500/10 to-blue-600/5',
@@ -22,13 +20,12 @@ const Responsibilities = () => {
     {
       organization: 'Pratibimb',
       role: 'Marketing Executive',
-      duration: '2022 - 2023',
+      duration: 'Aug 2024 - May 2025',
       icon: Megaphone,
       description:
         'Led marketing initiatives and social media campaigns to increase brand awareness and engagement. Coordinated events and managed digital content strategy.',
       contributions: [
         'Increased social media engagement by 150%',
-        'Organized 10+ successful technical events',
         'Managed content strategy across multiple platforms',
         'Collaborated with 20+ sponsors and partners',
       ],

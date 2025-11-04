@@ -6,33 +6,33 @@ const Education = () => {
     {
       institution: 'Veermata Jijabai Technological Institute (VJTI)',
       degree: 'B.Tech in Computer Engineering',
-      duration: '2022 - 2026',
+      duration: '2023 - 2027',
       location: 'Mumbai, Maharashtra',
       achievements: [
-        { label: 'CGPA', value: '8.9/10.0' },
-        { label: 'Department Rank', value: 'Top 10%' },
+        { label: 'CGPA', value: '8.31' },
+        
       ],
       icon: GraduationCap,
     },
     {
-      institution: 'Junior College',
+      institution: 'Prakash College',
       degree: 'HSC (Science)',
-      duration: '2020 - 2022',
+      duration: '2021 - 2023',
       location: 'Mumbai, Maharashtra',
       achievements: [
-        { label: 'Percentage', value: '94.5%' },
-        { label: 'Merit Rank', value: 'Top 5%' },
+        { label: 'Percentage', value: '85%' },
+        
       ],
       icon: Award,
     },
     {
-      institution: 'Secondary School',
-      degree: 'SSC',
-      duration: '2019 - 2020',
+      institution: 'Universal High School',
+      degree: 'ICSE',
+      duration: '2008 - 2021',
       location: 'Mumbai, Maharashtra',
       achievements: [
-        { label: 'Percentage', value: '95.8%' },
-        { label: 'Achievement', value: 'School Topper' },
+        { label: 'Percentage', value: '97.2%' },
+        
       ],
       icon: TrendingUp,
     },
