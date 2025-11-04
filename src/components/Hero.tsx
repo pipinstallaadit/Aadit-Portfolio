@@ -1,5 +1,6 @@
 import { ArrowRight, Mail, Linkedin, Github, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import profilePicture from '@/assets/profile-picture.jpg';
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -24,6 +25,19 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Proportion: Centered content aligned to rule of thirds grid */}
         <div className="max-w-4xl mx-auto text-center space-y-6 sm:space-y-8 animate-fade-in">
+          {/* Aesthetic: Profile picture with elegant styling */}
+          {/* Rule of Thirds: Positioned at upper intersection point */}
+          <div className="flex justify-center mb-6 sm:mb-8">
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary-foreground/50 to-primary-glow/50 rounded-full blur-lg opacity-75 group-hover:opacity-100 transition-smooth animate-glow-pulse" />
+              <img
+                src={profilePicture}
+                alt="Aadit Pujari"
+                className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-primary-foreground/20 shadow-2xl group-hover:scale-105 transition-smooth"
+              />
+            </div>
+          </div>
+
           {/* Communicable: Clear hierarchy with name as primary element */}
           <div className="space-y-3 sm:space-y-4">
             <p className="text-primary-foreground/90 text-base sm:text-lg font-medium tracking-wide uppercase">
